@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #00246B;
+
+}
+
+body {
+  width: 80%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+/* navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur;
+  border-bottom: 1px solid #afb3ba;
+
+}
+
+.logo {}
+
+.nav-heading {
+  width: 600px;
+  /* display: flex; */
+}
+
+.nav-heading {
+  font-size: 35px;
+}
+
+.nav-heading:hover {
+  color: aliceblue;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between  ;
+  padding-top: 1rem;
+
+}
+
+.items-container {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  font-size: 22px;
+  font-weight: 100px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: aliceblue;
+}
+
+/* Hero */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.img-hero {
+  border-radius: 10%;
+}
+
+.hero-heading {
+  margin-top: 2rem;
+  font-size: 40px;
+
+}
+
+.hero-heading1 {
+  text-align: center;
+  /* margin-left: 25px; */
+}
+
+.hero-right {
+
+}
+
+.hero-description {
+  margin: 0 auto;
+  width: 52%;
+  text-align: justify;
+}
+
+
+/* Educational Qualification */
+
+.Education {
+  width: 100%;
+  height: 575px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* border: 1px solid #ff5100; */
+}
+.edu-left-right {
+  display: flex;
+  justify-content: space-between;
+}
+.Education-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 72px;
+  margin-bottom: 50px;
+}
+
+.date-container {
+  /* position: absolute; */
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  border-radius: 53%;
+}
+
+.date {
+  /* position:relative; */
+  width: 135px;
+  margin-left: 58px;
+  margin-top: 15px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.date-name {
+  display: flex;
+  width: 918px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.name {
+  /* position: absolute; */
+  font-size: 25px;
+  margin-left: 1rem;
+  margin-top: 25px;
+}
+
+.education-left {
+  width: 937px;
+  height: 373px;
+}
+
+.education-right {
+  width: 300px;
+}
+
+.education-right img {
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
